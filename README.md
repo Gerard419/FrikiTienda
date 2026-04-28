@@ -92,9 +92,9 @@ El sistema implementa reglas de negocio relevantes, tales como:
 
 ## ✅ Validaciones
 
-Se implementan validaciones utilizando **Bean Validation (JSR 380)**:
+Se implementan validaciones utilizando **:
 
-* Campos obligatorios (@NotNull, @NotBlank)
+* Campos obligatorios (@NotNull, @NotBlank,etc)
 * Validación de formato (correo, longitud, etc.)
 * Validación de datos en los controladores mediante DTOs
 
@@ -102,7 +102,7 @@ Se implementan validaciones utilizando **Bean Validation (JSR 380)**:
 
 ## ⚠️ Manejo de Excepciones
 
-* Uso de `@ControllerAdvice` para manejo global
+* Uso de `@ControllerAdvice` para manejo global (GlobalHandlerexception )
 * Respuestas con `ResponseEntity`
 * Códigos HTTP adecuados:
 
