@@ -43,7 +43,7 @@ Diseñar e implementar una arquitectura distribuida basada en microservicios que
 * Cada microservicio posee su propia base de datos.
 * No se comparten tablas entre servicios.
 * Se mantiene la integridad referencial dentro de cada servicio.
-* Se utiliza **MySQL** como motor de base de datos.
+* Se utiliza **MySQL o PostgreSQL** como motor de base de datos.
 
 ---
 
@@ -137,16 +137,6 @@ Ejemplo de flujo (Solo ejemplo):
 
 ---
 
-## 🧾 Logs
-
-Se implementan logs mediante **SLF4J** para:
-
-* Registro de operaciones
-* Seguimiento de errores
-* Trazabilidad del sistema
-
----
-
 ## 🧪 Pruebas
 
 Se realizan pruebas de endpoints mediante:
@@ -160,7 +150,9 @@ Se realizan pruebas de endpoints mediante:
 * Java 21+
 * Spring Boot
 * Spring Data JPA
-* MySQL
+* MySQL o PostgreSQL
+* 
+* 
 * Maven
 
 ---
@@ -172,6 +164,7 @@ El proyecto se gestiona mediante GitHub, cumpliendo con:
 * Commits progresivos y descriptivos
 * Trabajo colaborativo
 * Organización del código por microservicio
+* Un microservicio por proyecto,un proyecto por repositorio.
 
 ---
 
